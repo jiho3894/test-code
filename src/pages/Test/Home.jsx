@@ -1,12 +1,14 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { useAddPost, useTestServe } from "../api/Query";
+import { useAddPost, useGetPost, useTestServe } from "../../api/Query";
 
 const Home = () => {
   const { mutateAsync } = useAddPost();
   const { register, handleSubmit } = useForm();
   const { data } = useTestServe();
   console.log(data);
+  const { data: test } = useGetPost();
+  console.log(test);
   const onValid = (data) => {
     /* input data */
     mutateAsync();

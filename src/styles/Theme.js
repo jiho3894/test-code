@@ -4,6 +4,6 @@ export const darkTheme = {
 };
 
 export const lightTheme = {
-  bgColor: "gray",
+  bgColor: "white",
   scrollColor: "linear-gradient(#1abc9c, #3498db)",
 };

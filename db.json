@@ -3,12 +3,12 @@
     {
       "id": 1,
       "name": "Jiho",
-      "contents": "안녕하세요"
+      "profile": "https://velog.velcdn.com/images/jiho3894/post/ea065fbc-8730-47c8-937f-d634cef354a3/image.gif"
     },
     {
       "id": 2,
       "name": "Park",
-      "contents": "안녕이야"
+      "contents": "https://velog.velcdn.com/images/jiho3894/post/d3b9589e-6fab-4921-9155-c76fc90fb7c1/image.png"
     }
   ]
 }
